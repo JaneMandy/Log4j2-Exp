@@ -3,6 +3,11 @@
 
 取消掉了原有的Payload，大家命令执行时避免命令冲突就行了。看参数。
 
+Log4j2RCE为本地测试环境
+demo.jar为vulfocus靶场的环境，注意都需要使用jdk8运行。
+
+
+
 确保利用环境均为JDK8，并且被攻击方URLCodebase参数为ture。否则攻击失败
 
 
