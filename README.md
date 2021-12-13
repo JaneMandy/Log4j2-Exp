@@ -12,7 +12,7 @@
 我也给大家提供了攻击环境。
 * Log4j2RCE为本地测试环境
 * demo.jar为vulfocus靶场的环境，注意都需要使用jdk8运行。  
-
+*Docker镜像：vulfocus/log4j2-rce-2021-12-09:latest 容器会监听：8080端口 可以添加-p8080:8080参数进行访问
 确保利用成功请运行expo和靶场环境均为JDK8。
 如果JDK版本高于1.8.191等，请被攻击方URLCodebase参数为ture。否则攻击失败。
 
