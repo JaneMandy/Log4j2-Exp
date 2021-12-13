@@ -1,4 +1,4 @@
-#Log4j2利用工具。
+#Log4j2 Rce利用工具。
 ##使用
   修改Exp.py里面的参数，如Path，设置为JDK8的java的绝对路径。（如果默认java是jdk8不用设置）
   修改Host,如果是DOCKER,设置为能够回连到Exp为止。建议使用VPS。
